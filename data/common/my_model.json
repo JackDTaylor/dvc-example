@@ -1,0 +1,10 @@
+{
+	"example-model-key": {
+		"name": "First Model Name",
+		"color": "#2eaaff"
+	},
+	"another-model-key": {
+		"name": "Another Model Name",
+		"color": "#2ab71b"
+	}
+}
