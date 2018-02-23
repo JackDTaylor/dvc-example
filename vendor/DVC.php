@@ -194,8 +194,8 @@ abstract class Controller {
 
 			ob_start();
 
-			if(!empty($this->config['language'])) {
-				Lang::load($this->config['language']);
+			if(isset($this->config['useLanguage']) && $this->config['useLanguage'] === true) {
+				Lang::load(isset($this->config['language']) ? $this->config['language'] : null);
 			}
 
 			$this->init();
